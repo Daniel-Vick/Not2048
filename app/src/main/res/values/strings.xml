@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Maybe 2048</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="R2C0">2</string>
+    <string name="R2C3">2</string>
+    <string name="R2C2">2</string>
+    <string name="R2C1">2</string>
+    <string name="R1C3">2</string>
+    <string name="R1C2">2</string>
+    <string name="R1C1">2</string>
+    <string name="R1C0">2</string>
+    <string name="R0C3">2</string>
+    <string name="R0C2">2</string>
+    <string name="R0C1">2</string>
+    <string name="R0C0">2</string>
+    <string name="R3C0">2</string>
+    <string name="R3C1">2</string>
+    <string name="R3C2">2</string>
+    <string name="R3C3">2</string>
+
+</resources>
