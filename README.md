@@ -1,6 +1,9 @@
 # Not2048
-Author: Daniel Vick
-Description:
+
+#Author: 
+Daniel Vick
+
+#Description:
 For a class project I made a clone of 2048, which ran in the command line. 
 I then ported it to Android as this project.
 #1.0
