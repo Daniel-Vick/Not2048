@@ -9,6 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.io.IOException;
 import java.util.Random;
 
@@ -67,6 +69,7 @@ public class GameActivity extends ActionBarActivity implements View.OnClickListe
 
 
     public void display(Board board) {
+        TextView Score = (TextView) findViewById(R.id.ScoreString);
         TextView tv00 = (TextView) findViewById(R.id.R0C0);
         TextView tv01 = (TextView) findViewById(R.id.R0C1);
         TextView tv02 = (TextView) findViewById(R.id.R0C2);
@@ -99,6 +102,7 @@ public class GameActivity extends ActionBarActivity implements View.OnClickListe
         tv31.setText(Integer.toString(board.grid[3][1]));
         tv32.setText(Integer.toString(board.grid[3][2]));
         tv33.setText(Integer.toString(board.grid[3][3]));
+        Score.setText(Integer.toString(board.getScore()));
 
     }
 
