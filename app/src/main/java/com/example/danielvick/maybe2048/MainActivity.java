@@ -13,7 +13,6 @@ import android.widget.TextView;
 public class MainActivity extends ActionBarActivity {
 
     Button button;
-    TextView tv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +20,6 @@ public class MainActivity extends ActionBarActivity {
 
         setContentView(R.layout.activity_main);
 
-        tv = (TextView) findViewById(R.id.tv1);
         button = (Button) findViewById(R.id.button1);
 
         button.setOnClickListener(new View.OnClickListener() {
